@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Anek Telugu', sans-serif;
+  margin: 20px;
+  background-image: url(foto/bg-indo.jpg);
+  background-size: auto;
+}
+
+.publish{
+  margin-bottom: 0;
+}
+
+hr{
+  margin-top: 0;
+}
+
+.kartu{
+  margin: 10px;
+}
+
+#biografi, 
+#biografi1, 
+#biografi2,
+#biografi3,
+#biografi4,
+#biografi5,
+#biografi6
+{
+  background-color: #f0f0f0;
+  top: 110px;
+  position: absolute;
+  display: block;
+  width: 80vh;
+  border-radius: 5px;
+  display: none;
+  z-index: 1002;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#biografi .card .card-body,
+#biografi1 .card .card-body,
+#biografi2 .card .card-body,
+#biografi3 .card .card-body,
+#biografi4 .card .card-body,
+#biografi5 .card .card-body,
+#biografi6 .card .card-body
+{
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 80vh;
+  overflow: auto;
+  padding-top: 0px;
+}
+
+#biografi .card .card-body #title,
+#biografi1 .card .card-body #title,
+#biografi2 .card .card-body #title,
+#biografi3 .card .card-body #title,
+#biografi4 .card .card-body #title,
+#biografi5 .card .card-body #title,
+#biografi6 .card .card-body #title
+{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 5px;
+}
+
+
+#close-button, 
+#close-button1,
+#close-button2,
+#close-button3,
+#close-button4,
+#close-button5,
+#close-button6
+{
+  position: absolute;
+  margin-top: 5px;
+  background-color: rgb(243, 240, 240);
+  color: red;
+  padding: 5px;
+  border: 1px solid rgb(243, 240, 240);
+  float: right;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+#bg {
+  background-color: black;
+  opacity: 0.7;
+  position: fixed;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: 1001;
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  h4, button {
+  font-size:15px;
+  }
+  }
+  
+  @media screen and (max-width: 360px) {
+  h4 {
+  font-size:25px;
+  }
+  #biografi, 
+  #biografi1,
+  #biografi2,
+  #biografi3,
+  #biografi4,
+  #biografi5,
+  #biografi6
+  {
+    width: 50vh;
+  }
+  .card-header,p{
+    font-size: 15px;
+  }
+}
