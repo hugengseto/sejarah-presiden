@@ -132,6 +132,7 @@ hr{
   #biografi6
   {
     width: 50vh;
+    top: 35px;
   }
   .card-header,p{
     font-size: 15px;
